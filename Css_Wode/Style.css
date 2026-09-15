@@ -1650,4 +1650,9 @@ a.btn_Contact:hover {
     .Course_Container {
         width: 100%;
     }
+
+    .Course_Desc_Container.expand {
+        height: 400px;
+
+    }
 }
