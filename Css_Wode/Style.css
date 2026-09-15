@@ -233,9 +233,21 @@ img {
 
 .Course_Img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
+.Course_Img_Container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    background-color: var(--pale-green);
+    overflow: hidden;
+
+}
 .Course_Name_Container {
     color: var(--TextColourTitle);
     font-size: var(--H2-Text-Size);
