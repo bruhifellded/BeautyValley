@@ -248,6 +248,7 @@ img {
     overflow: hidden;
 
 }
+
 .Course_Name_Container {
     color: var(--TextColourTitle);
     font-size: var(--H2-Text-Size);
@@ -1606,7 +1607,7 @@ a.btn_Contact:hover {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-        .Course_Desc_Container.expand {
+    .Course_Desc_Container.expand {
         height: 300px;
         padding: 10px;
         display: flex;
@@ -1620,10 +1621,10 @@ a.btn_Contact:hover {
 
 
     }
-    
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .Course_Detail_Overview_Img img {
         height: 160px;
         width: 160px;
@@ -1644,5 +1645,9 @@ a.btn_Contact:hover {
 
     .Courses_Container_Grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .Course_Container {
+        width: 100%;
     }
 }
