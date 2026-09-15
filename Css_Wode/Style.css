@@ -1605,6 +1605,22 @@ a.btn_Contact:hover {
     .Courses_Container_Grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+
+        .Course_Desc_Container.expand {
+        height: 300px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Course_Desc_Container.expand .Course_Desc_Button {
+
+        width: 65%;
+
+
+    }
+    
 }
 
 @media (max-width: 480px) {
