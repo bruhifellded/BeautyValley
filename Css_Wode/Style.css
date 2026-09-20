@@ -801,6 +801,7 @@ ul.Course_Syllabus_Detail_Classes {
 
     padding: 15px;
     background-color: var(--MainWebsiteHighLightCoulour);
+    color: var(--dark-taupe);
     width: 60%;
 
     border-radius: 15px;
@@ -1647,12 +1648,7 @@ a.btn_Contact:hover {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-    .Course_Container {
+    .Course_Container{
         width: 100%;
-    }
-
-    .Course_Desc_Container.expand {
-        height: 400px;
-
     }
 }
