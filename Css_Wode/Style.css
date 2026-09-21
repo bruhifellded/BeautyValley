@@ -1569,8 +1569,50 @@ a.btn_Contact:hover {
         transform: translate(-15px, -15px);
     }
 
+    .Course_Time_Details {
+
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Team_Memeber_Desc_Container {
+
+        flex-direction: column;
+
+    }
+
+    .Team_Memeber_Img_Info_Contianer{
+        width: 100%;
+    }
+
+    .Team_Memeber_Desc_Info_Contianer{
+        width: 100%;
+    }
+
+    .ShowCase_Certification {
+
+        flex-direction: column;
+
+
+    }
+
+    .ShowCase_Certification_Desc_Container {
+
+        width: 100%;
+    }
+
+    .ShowCase_Certification_Img_Container {
+
+        width: 100%;
+    }
+
+    .Course_Time_Detail_Container {
+        width: 100%;
+    }
+
     .Course_Benefits_Container {
         justify-content: center;
+        flex-direction: column;
     }
 
     .Course_Benefits_Container .Course_Benefit {
@@ -1648,7 +1690,7 @@ a.btn_Contact:hover {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-    .Course_Container{
+    .Course_Container {
         width: 100%;
     }
 }
