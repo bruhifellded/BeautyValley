@@ -1542,6 +1542,16 @@ a.btn_Contact:hover {
     align-items: center;
 }
 
+/* ================= Translation ================= */
+
+.Chinese_Lang{
+    display: none;
+}
+
+.English_Lang{
+    display: block;
+}
+
 /* ----- responsive ----- */
 @media (max-width: 900px) {
     .Course_Detail_Overview {
@@ -1639,11 +1649,11 @@ a.btn_Contact:hover {
     }
 
     .Contact_Desc_Container {
-        width: 80%;
+        width: 100%;
     }
 
     .Contact_Desc_Container {
-        width: 80%;
+        width: 100%;
     }
 
     .Courses_Container_Grid {
