@@ -833,7 +833,7 @@ li {
 
     .FAQ_Slider_Container.Expand .FAQ_Content_Container_Title {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
         height: auto;
         overflow: visible;
@@ -1431,7 +1431,7 @@ li {
 
     .FAQ_Slider_Container.Expand .FAQ_Content_Container_Title {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
         height: auto;
         overflow: visible;
